@@ -1,6 +1,6 @@
 class Bike
   def initialize(type)
-    puts("created a #{type} bike")
+    puts("added a #{type} bike")
     @type = type
     @rentable = true
   end
@@ -18,5 +18,9 @@ class Bike
   def return_back
     puts("bike has been returned")
     @rentable = true
+  end
+
+  def print_self
+    puts("this bike is a #{@type} byke")
   end
 end
