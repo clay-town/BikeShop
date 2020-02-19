@@ -10,7 +10,7 @@ puts 'Are there any notes?'
 puts test.notes
 
 test.inspect()
-#test.addNote('Hello from Kristen')
+test.addNote('Hello from Kristen')
 
 puts 'Has it been inspected?'
 puts test.inspected 

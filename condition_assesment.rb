@@ -9,12 +9,12 @@ class Condition_assesment
         @notes="NOTHING HERE"
     end
 
-    def self.inspect()
-        self.inspected=true
+    def inspect()
+        @inspected=true
     end
 
-    def self.addNote(note)
-        self.notes.append(note)
+    def addNote(note)
+        @notes << note
     end
 
 end
