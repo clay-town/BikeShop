@@ -1,3 +1,5 @@
+require_relative 'reservation_database'
+require_relative 'reservation'
 class CustomerPicksUpBikeWorkflow
 
  attr_reader :rental_info

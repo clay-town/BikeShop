@@ -1,3 +1,5 @@
+require_relative 'reservation'
+
 class ReservationDatabase
   def initialize(reservations)
     @reservations = reservations
