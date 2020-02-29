@@ -1,14 +1,13 @@
 class CustomerPicksUpBikeWorkflow
 
 
-  def initialize( employee)
-    @employee = employee
+  def initialize(reservation_database)
+    @reservation_database = reservation_database
   end
 
   def run
-    reservation = employee.find_reservation(fname, lname)
-    employee.check(reservation)
-    employee.rent_out(reservation.get_bike)
+    reservation = reservation_database.find_reservation(fname, lname)
+    reservation.rent_out()
 
   end
 
