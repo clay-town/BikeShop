@@ -8,4 +8,4 @@ workflow = CustomerPicksUpBikeWorkflow.new(reservation_database)
 
 workflow.run
 
-puts ":^)"
+puts workflow.rental_info
