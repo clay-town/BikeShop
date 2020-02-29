@@ -1,6 +1,6 @@
 # Use Case: Employee Inspects Bike 
 
-class ConditionAssesmentWorkflow
+class ConditionAssessmentWorkflow
 
     attr_reader :assessment_report
 

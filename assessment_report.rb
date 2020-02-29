@@ -1,6 +1,6 @@
 # Use Case: Employee Inspects Bike 
 
-class AssesmentReport
+class AssessmentReport
     
     attr_reader : :tires, :brakes, :gear, :frame
     
