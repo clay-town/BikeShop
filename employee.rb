@@ -1,5 +1,7 @@
 # Use Case: Employee Inspects Bike 
 
+require_relative 'bike'
+
 class Employee
 
     def initialize(name, id)
@@ -7,7 +9,7 @@ class Employee
         @id = id 
     end
 
-    def rate_the_bike(bike,)
+    def rate_the_bike(bike)
         bike.rate
         
     end

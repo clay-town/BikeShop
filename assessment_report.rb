@@ -2,16 +2,17 @@
 
 class AssessmentReport
     
-    attr_reader : :tires, :brakes, :gear, :frame
+    attr_reader :type, :rentable, :id, :tires, :chain
     
     def initialize(bike)
-        @tires = bike.tires
-        @brakes = bike.brakes
-        @gears = bike.gears
-        @frame = bike.frame
+        @type = type
+        @rentable = true
+        @id = id
+        @tires = 5
+        @chain = 5
     end
 
-    def modify_condition()
+    def modify_condition(brakes)
         puts 'What is the condition of the brakes?' 
         $rating = STDIN.gets
         puts "You've rated brakes: " + $rating
