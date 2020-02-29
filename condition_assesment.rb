@@ -1,20 +1,12 @@
-#Condition_assesment 
+# Use Case: Employee Inspects Bike 
 
-class Condition_assesment
+require_relative 'condition_assesment_workflow'
 
-    attr_reader :inspected, :notes
+bike = Bike.new
 
-    def initialize()
-        @inspected=false
-        @notes="NOTHING HERE"
-    end
+workflow = ConditionAssessmentWorkflow.new(bike, employeee, AssessmentReport.new)
 
-    def inspect()
-        @inspected=true
-    end
+workflow.run()
 
-    def addNote(note)
-        @notes << note
-    end
+puts workflow.assessment_report
 
-end
