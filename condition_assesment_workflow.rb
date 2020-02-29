@@ -1,19 +1,18 @@
-#Condition_assesment_workflow
-require_relative 'Condition_assesment.rb'
 
-test= Condition_assesment.new()
+class ConditionAssesmentWorkflow
 
-puts 'Has it been inspected?'
-puts test.inspected 
+    attr_reader :assessment_report
 
-puts 'Are there any notes?'
-puts test.notes
+    def initialize(bike)
+        @assesment_report = AssessmentReport.new
+    end
 
-test.inspect()
-test.addNote('Hello from Kristen')
+    def run
+        # Stub out updating the attributes of the assessment report.
+        
+    
+    end
 
-puts 'Has it been inspected?'
-puts test.inspected 
 
-puts 'Are there any notes?'
-puts test.notes
+
+end
