@@ -1,8 +1,15 @@
 class Bike
-  def initialize(type)
+  attr_reader :type, :rentable, :id, :tires, :chain
+  
+  def initialize(type, id)
     puts("added a #{type} bike")
     @type = type
     @rentable = true
+    @id = id
+    @tires = 5
+    @chain = 5
+
+
   end
 
   def is_rentable
