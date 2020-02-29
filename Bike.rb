@@ -1,8 +1,9 @@
 class Bike
-  def initialize(type)
+  def initialize(type, id)
     puts("added a #{type} bike")
     @type = type
     @rentable = true
+    @id
   end
 
   def is_rentable
