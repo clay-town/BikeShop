@@ -7,8 +7,9 @@ class Employee
         @id = id 
     end
 
-    def rate_the_bike
-    
+    def rate_the_bike(bike,)
+        bike.rate
+        
     end
 
 end

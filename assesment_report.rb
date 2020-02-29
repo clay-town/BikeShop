@@ -12,7 +12,9 @@ class AssesmentReport
     end
 
     def modify_condition()
-        
+        puts 'What is the condition of the ' (tires, brakes, gears, frame) 
+        $rating = STDIN.gets
+        puts "You've rated " + $rating
     end
 
     

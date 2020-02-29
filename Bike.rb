@@ -4,6 +4,10 @@ class Bike
     @type = type
     @rentable = true
     @id
+    @tires = 5
+    @chain = 5
+    
+
   end
 
   def is_rentable
