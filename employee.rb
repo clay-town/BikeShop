@@ -2,7 +2,13 @@
 
 class Employee
 
-    def initialize()
+    def initialize(name, id)
+        @name = name
+        @id = id 
     end
+
+    def rate_the_bike
     
+    end
+
 end
