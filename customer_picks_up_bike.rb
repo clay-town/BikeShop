@@ -2,7 +2,7 @@
 require_relative 'customer_picks_up_bike_workflow'
 
 
-reservation = Reservation.new
+reservation_database = ReservationDatabase.new
 employee = Employee.new
 
 workflow = CustomerPicksUpBikeWorkflow.new(reservation, employee)
