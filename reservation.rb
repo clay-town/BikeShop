@@ -1,4 +1,6 @@
+
 class Reservation
+ attr_reader :fname, :lname, :bike, :turn_in_time
  def initialize(fname, lname, bike, turn_in_time)
    @fname = fname
    @lname = lname
