@@ -1,4 +1,4 @@
-require_relative 'Bike'
+require_relative 'bike'
 
 class Customer
   def initialize(username, password, credit_card)

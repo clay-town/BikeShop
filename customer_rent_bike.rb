@@ -1,5 +1,5 @@
-require_relative 'Bike'
-require_relative 'Customer'
+require_relative 'bike'
+require_relative 'customer'
 require_relative 'customer_rent_bike_workflow'
 
 
